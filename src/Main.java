@@ -32,7 +32,7 @@ public class Main {
         else return "none";
     }
     public static int ctoa(char val) {
-        return (int) val;
+        return val;
     }
     public static int addUpTo(int dec) {
         int sum = 0;
@@ -55,6 +55,6 @@ public class Main {
         for(int i = 0; i < dec2; i++) {
             dec1 += dec1;
         }
-        return dec1 % dec2 == 0;
+        return dec1 % dec3 == 0;
     }
 }
