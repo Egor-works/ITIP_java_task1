@@ -27,7 +27,7 @@ public class Main {
         return 2 * chickens + 4 * (cows + pigs);
     }
 
-    /** Метод, определяющий является ли произведение двух значений больше третьего**/
+    /** Метод, определяющий является ли произведение двух значений больше третьего **/
     public static boolean profitableGamble(double prob, int prise, int pay) {
         return (prob * prise) > pay;
     }
