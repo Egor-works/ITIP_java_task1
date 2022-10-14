@@ -16,18 +16,22 @@ public class Main {
     public static int remainder(int dec1, int dec2) {
         return dec1 % dec2;
     }
+
     /** Метод, принимающий высоту и основание треугольника и возвращающий площадь этого треугольника **/
     public static int triArea(int val1, int val2) {
         return (int) (0.5 * (val1 * val2));
     }
+
     /** Метод, возвращающий общее число ног кур, коров и свиней **/
     public static int animals(int chickens, int cows, int pigs) {
         return 2 * chickens + 4 * (cows + pigs);
     }
+
     /** Метод, определяющий является ли произведение двух значений больше третьего**/
     public static boolean profitableGamble(double prob, int prise, int pay) {
         return (prob * prise) > pay;
     }
+
     /** Метод, возвращающий название опереции, которую необходимо провести со вторым и третьим числом, чтобы получить первое **/
     public static String operation(int N, int a, int b) {
         if (a + b == N) return "added";
@@ -36,10 +40,12 @@ public class Main {
         else if (a / b == N) return "divide";
         else return "none";
     }
+
     /** Метод, возвращающий номер ASCII введённого символа **/
     public static int ctoa(char val) {
         return val;
     }
+
     /** Метод, возвращающий сумму всех чисел от 1 до введённого **/
     public static int addUpTo(int dec) {
         int sum = 0;
@@ -48,10 +54,12 @@ public class Main {
         }
         return sum;
     }
+
     /** Метод, возвращающий максимальную длину третьей стороны треугольника при известных первой и второй **/
     public static int nextEdge(int dec1, int dec2) {
         return dec1 + dec2 - 1;
     }
+
     /** Метод, возвращающий сумму кубов всех чисел в массиве **/
     public static int sumOfCubes(int[] array) {
         int sum = 0;
@@ -60,6 +68,7 @@ public class Main {
         }
         return sum;
     }
+
     /** Метод, определяющий делится ли первое число, сложенное с самим собой количество раз равное второму, на третье **/
     public static boolean abcmath(int dec1, int dec2, int dec3) {
         for(int i = 0; i < dec2; i++) {
